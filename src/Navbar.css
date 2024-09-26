@@ -1,0 +1,83 @@
+/* src/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px; /* Increased padding */
+    background-color: #333;
+    color: white;
+    font-size: 18px; /* Increased size */
+    font-weight: bold;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  
+  .navbar-title {
+    font-size: 26px; /* Larger size */
+  }
+  
+  .navbar-right ul {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem; /* Increased spacing between items */
+  }
+  
+  .navbar-right ul li {
+    display: inline;
+  }
+  
+  .navbar-right ul li a {
+    color: white;
+    text-decoration: none; /* Removed underline */
+    font-size: 18px;
+    padding: 10px 15px; /* Added padding for larger clickable area */
+  }
+  
+  .navbar-right ul li a:hover {
+    color: #ff6347; /* Hover effect color change */
+    font-size: 20px; /* Increase font size on hover */
+    background-color: #444; /* Optional background color change on hover */
+    border-radius: 5px; /* Smooth corners */
+  }
+  logout-button {
+    background-color: #dc3545; /* Logout button background color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+  
+  .welcome-message {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .robot-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .robot-image {
+    width: 300px;
+    height: auto;
+  }
+  

@@ -1,0 +1,62 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105_1280.png'); /* Replace with your image URL */
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+.signup-card {
+    background-color: #fff; /* White background for the card */
+    padding: 30px; /* Increased padding for more space inside the card */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 400px; /* Increased width for the card */
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px; /* Spacing between input groups */
+    text-align: left; /* Align labels to the left */
+}
+
+label {
+    font-weight: bold; /* Bold labels */
+}
+
+input[type='text'],
+input[type='password'] {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px; /* Adjust font size */
+}
+
+button {
+    background-color: #007bff; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Larger font size for button */
+    transition: background-color 0.3s; /* Transition effect */
+    width: 100%; /* Full width for the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.error-message {
+    color: red; /* Red color for error messages */
+    margin-bottom: 15px; /* Space below error messages */
+}

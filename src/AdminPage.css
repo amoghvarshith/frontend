@@ -1,0 +1,45 @@
+/* src/AdminPage.css */
+
+.admin-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Full height */
+    padding: 20px; /* Adjust padding as needed */
+    background-image: url('https://img.freepik.com/free-photo/artistic-blurry-colorful-wallpaper-background_58702-8192.jpg?size=626&ext=jpg&ga=GA1.1.1819120589.1727136000&semt=ais_hybrid'); /* Add your background image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the background image */
+    color: white; /* Text color */
+}
+
+.form-card, .students-card {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better visibility */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.logout-container {
+    margin-top: auto; /* Push the logout button to the bottom */
+    text-align: center; /* Center the button */
+}
+
+.logout-button {
+    padding: 10px 20px;
+    background-color: #ff4757; /* Customize the background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.logout-button:hover {
+    background-color: #e84118; /* Darker shade on hover */
+}
+
+/* Add other styles as necessary */

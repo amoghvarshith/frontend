@@ -1,0 +1,25 @@
+.eligibility-container {
+    padding: 20px;
+}
+
+.eligibility-info {
+    margin-top: 20px;
+}
+
+.generate-certificate-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-certificate-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.instructions {
+    margin-top: 20px;
+}
